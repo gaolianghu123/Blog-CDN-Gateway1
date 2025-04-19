@@ -13,7 +13,7 @@ export default {
 		// 如果 env.URLS 存在，则添加到数组
 		if (env.URL) urls = await ADD(env.URL);
 		
-		const ads = env.ADS || 'google.com, pub-9350003957494520, DIRECT, f08c47fec0942fa0';
+		const ads = env.ADS || 'google.com, pub-2713419101711618, DIRECT, f08c47fec0942fa0';
 		const 网站图标 = env.ICO || 'https://image.136401.xyz/favicon.ico';
 		const 网站头像 = env.PNG || 'https://image.136401.xyz/touxiang.png';
 		const 网络备案 = env.BEIAN || `<a href='https://icp.gov.moe/'>萌ICP备-20070707号</a>`;
