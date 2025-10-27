@@ -1,6 +1,7 @@
 let urls = [
 	'https://blog.vvocc.com#Cloudflare CDN',
 	'https://vercel.blog.vvocc.com#Vercel CDN',
+	'https://edgeone.blog.vvocc.com#edgeone CDN',
 	
 ];
 
@@ -382,3 +383,4 @@ async function ADD(envadd) {
 
 	return add;
 }
+
